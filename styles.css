@@ -167,7 +167,7 @@ h2 {
 #mac {
     padding-top: 3rem;
     padding-bottom: 10rem;
-    height: 85.7vh;
+    height: 89.7vh;
     width: 100vw;
     border-bottom: #fff solid 0.8rem;
     background: linear-gradient(to top left, white, rgb(198, 239, 255));
@@ -404,4 +404,13 @@ hr {
 
 .footer-content :nth-child(4) {
     margin-left: 31rem;
+}
+
+
+/*Button hovers*/
+
+.btn:hover, .more-btn:hover {
+    background-color: #55a3fc;
+    color: black;
+    transition: all 0.4s ease;
 }
